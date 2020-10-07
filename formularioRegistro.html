@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado Liebre</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+</head>
+
+<body>
+    <header>
+    <h1>
+        <img src="imagenes/logo-mercado-liebre.svg" alt="Mercado Liebre">   
+    </h1>
+  
+     <h2>Buscar productos marcas y mas</h2>
+  
+    <h2> <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de credito</h2> 
+   
+
+</header>
+<section>
+    <ul>
+
+        <li><a href=" ">Ofertas</a></li>
+       
+        <li><a href=" "> Tiendas oficiales</a></li>
+       
+        <li><a href=" ">Vender</a></li>
+        
+        <li><a href=" ">Ayuda</a></li>
+   
+    </ul>
+</section>
+
+<section>
+    <ul>
+       
+        <li><a href=" ">Creá tu cuenta</a></li>
+        <li><a href="formularioRegistro.html">Ingresá</a></li>      
+        <li><a href=" ">Mis compras</a></li>
+    </ul>
+   
+
+
+</section>
+
+<main>
+    
+    <!--Datos requeridos por el equipo de backend
+    === REGISTRO ===
+    Nombre y apellido
+    Nombre de usuari@
+    Email
+    Fecha de nacimiento
+    Domicilio
+    Perfil del usuario (consultar a l@s usuari@s si quieren comprar o vender)
+    Categorías de interés (puede elegir más de uno)
+    ● Electro
+    ● Moda
+    ● Hogar
+    ● Juguetería
+    ● Vida sana
+    Foto de usuario
+    Contraseña
+    Confirmar contraseña
+    Botón de enviar que nos lleve a la página principal
+    
+    -->
+<form action="" method="POST">
+
+<input type="text" name="name" placeholder="Nombre y apellido"> <br>
+
+<input type="text" name="Username" placeholder="Nombre de usuario"> <br>
+
+<input type="email" name="email" placeholder="E-mail"> <br>
+
+<label for="birthDate">Fecha de nacimiento</label><br>
+<input type="date"><br>
+<input type="text" name="mail" placeholder="Domicilio"><br>
+<h3>Perfil del usuario</h3> 
+<input type="radio"name="userType" value="comprador">Comprador
+<input type="radio"name="userType" value="vendedor">Vendedor<br>
+
+<h3>Intereses</h3><br>
+
+<input type="checkbox" name="electro" id="electro" value="electro">
+<label for="interes">Electro</label>
+
+<input type="checkbox" name="moda" id="moda" value="moda">
+<label for="interes">Moda</label>
+
+<input type="checkbox" name="hogar" id="hogar" value="hogar">
+<label for="interes">Hogar</label>
+
+<input type="checkbox" name="jugueteria" id="jugueteria" value="jugueteria">
+<label for="interes">jugueteria</label>
+
+<input type="checkbox" name="vidaSana" id="vidaSana" value="vidaSana">
+<label for="interes">Vida sana</label>
+<br>
+<h3>Elegí tu foto de usuario</h3>
+<input type="file">
+<br>
+<input type="password" id="password" name="password" placeholder="Elegí tu contraseña"><br>
+<input type="password" id="password" name="password" placeholder="Confirmá tu contraseña"><br>
+
+<input type="submit"><br>
+  </form>
+
+</main>
+
+<footer>
+    <i class="fas fa-credit-card"></i>
+    <h2>Pagá con tarjeta o efectivo</h2>
+
+    <p>
+        Con MercadoLiebreCash tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!
+    </p>
+    <i class="fas fa-gift"></i>
+    <H2>Envío gratis desde los $2.500</H2>
+    <p>
+        Solo por estar registrad@ en MercadoLiebre tenés envíos gratis en miles de
+productos. Es un beneficio de MercadoPuntos.
+
+    </p>
+
+    <h2>
+        <i class="fas fa-user-shield"></i>
+        Seguridad, de principio a fin
+    </h2>
+
+    <p>
+        ¿No te gusta? ¡Devolvelo! En MercadoLiebre no hay nada que no puedas hacer
+porque estás siempre protegid@.
+
+    </p>
+    <p>
+        Copyright © 1999-2019 MercadoLiebre S.R.L.
+
+    </p>
+</footer>
+
+
+
+</body>
+</html>
